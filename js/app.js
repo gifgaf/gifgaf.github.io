@@ -1,7 +1,7 @@
 var Title = React.createElement(
   'h1',
   {className: 'title'},
-  'Покрась их/Colorize Them'
+  '«Покрась их/Colorize Them»'
 );
 
 var Menu = React.createClass({
