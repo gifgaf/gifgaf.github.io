@@ -4,8 +4,15 @@
   <title>ColorizeThem</title>
   <link rel="stylesheet" href="css/ct.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"></script>
+  <!--
+function load() {
+    $("#txt").load("http://gifgaf.net/description.txt");
+}
+// -->
+
   </head>
-  <body>
-    <div><!--#include virtual="description.htm"--></div>
+  <body onload=load();>
+    <div id="txt"></div>
   </body>
 </html>
