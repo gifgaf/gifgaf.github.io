@@ -1,7 +1,7 @@
 var Title = React.createElement(
   'h1',
   {className: 'title'},
-  '«Покрась их/Colorize Them»'
+  'Colorize Them'
 );
 
 var Menu = React.createClass({
@@ -48,7 +48,7 @@ var Menu = React.createClass({
                         
                 </ul>
                 
-                <p>Selected: {this.props.items[this.state.focused]}</p>
+                <p>Выбрано: {this.props.items[this.state.focused]}</p>
             </div>
         );
 

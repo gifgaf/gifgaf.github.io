@@ -4,24 +4,24 @@
 }
 
 html{
-    font:16px normal Arial, sans-serif;
-    color:#3b3f49;
+    font:18px normal Arial, sans-serif;
+    color:#4f545f;
     background-color:#fff;
 }
 
 body{
-    padding:60px;
     text-align: center;
 }
 
 ul{
     list-style:none;
     display: inline-block;
+    font-size: 94%;
 }
 
 ul li{
     display: inline-block;
-    padding: 10px 20px;
+    padding: 0.6em 1.2em;
     cursor:pointer;
     background-color:#eee;
     color:#7B8585;
@@ -39,10 +39,10 @@ ul li.focused{
 }
 
 p{
-    padding-top:15px;
-    font-size:12px;
+    padding-top:0.2em;
+    font-size: 80%;
 }
 
 .title{
-    margin: 0 0 1em;
+    margin: 1em;
 }
