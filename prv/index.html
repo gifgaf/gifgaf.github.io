@@ -4,13 +4,35 @@
   <title>ColorizeThem</title>
   <link rel="stylesheet" href="css/ct.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.js"></script>
   </head>
   <body onload=load();>
-    <pre><div id="txt"></div></pre>
+  <h1>Colorize Them</h1>
+    <div id="menu">
+      <input type="radio" name="odin" checked="checked" id="vkl1"/>
+      <label for="vkl1">Описание</label>
+      <input type="radio" name="odin" id="vkl2"/>
+      <label for="vkl2">Эскиз</label>
+      <input type="radio" name="odin" id="vkl3"/>
+      <label for="vkl3">Блок-схемa</label>
+      <input type="radio" name="odin" id="vkl4"/>
+      <label for="vkl4">Прототип</label>
+      <input type="radio" name="odin" id="vkl5"/>
+      <label for="vkl5">Дизайн</label>
+      <div><p id="txt"></p></div>
+      <div class="text-center">
+        <img src="img/a.png" alt="" class="aimg"><br/>
+        <img src="img/b.png" alt="" class="aimg"><br/>
+        <img src="img/c.png" alt="" class="aimg">
+      </div>
+      <div class="text-center"><img src="img/load.gif" alt="" width="200px" height="200px"></div>
+      <div class="text-center"><img src="img/load.gif" alt="" width="200px" height="200px"></div>
+      <div class="text-center"><img src="img/load.gif" alt="" width="200px" height="200px"></div>
+    </div>
   <script>
     function load() {
-      $("#txt").load("http://gifgaf.net/prv/description.txt");
+      $("#txt").load("/prv/description.htm");
     }
   </script>    
   </body>

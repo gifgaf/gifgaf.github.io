@@ -4,11 +4,37 @@
 }
 
 html{
-    font:18px normal Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size:18px; line-height: 1.5; font-weight: 100;
     color:#4f545f;
     background-color:#fff;
 }
 
 body{
-    text-align: center;
+text-align: center;
+}
+
+h1{
+    text-align: center; margin: 1em 0 1em 0; font-weight: 300;
+}
+
+.text-center{
+text-align: center!important;
+}
+
+#menu > div, #menu > input { display: none; }
+
+#menu label { padding: 0.6em 1.2em; line-height: 2.4; margin: 0 0 0 -0.3em;  cursor: pointer; position: relative; background: #eee; clear: both; }
+#menu label:hover { background: #d8beec; }
+#menu input[type="radio"]:checked + label {background: #8e41c7; color:#fff; }
+
+#menu > input:nth-of-type(1):checked ~ div:nth-of-type(1),
+#menu > input:nth-of-type(2):checked ~ div:nth-of-type(2),
+#menu > input:nth-of-type(3):checked ~ div:nth-of-type(3),
+#menu > input:nth-of-type(4):checked ~ div:nth-of-type(4),
+#menu > input:nth-of-type(5):checked ~ div:nth-of-type(5) 
+{display: block; text-align: left; max-width: 75rem; margin-left: auto; margin-right: auto; margin-top: 2em; margin-bottom: 5em; padding: 0 1.2em;}
+
+.aimg {
+  width: 100%; height: auto; 
 }
