@@ -38,6 +38,8 @@ ul li.focused{
     background-color:#8e41c7;
 }
 
+h1{font-weight: 500;}
+
 p{
     padding-top:0.2em;
     font-size: 80%;
