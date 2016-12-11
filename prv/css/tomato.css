@@ -31,9 +31,7 @@ text-align: center!important;
 #menu > input:nth-of-type(1):checked ~ div:nth-of-type(1),
 #menu > input:nth-of-type(2):checked ~ div:nth-of-type(2),
 #menu > input:nth-of-type(3):checked ~ div:nth-of-type(3),
-#menu > input:nth-of-type(4):checked ~ div:nth-of-type(4),
-#menu > input:nth-of-type(5):checked ~ div:nth-of-type(5),
-#menu > input:nth-of-type(6):checked ~ div:nth-of-type(6)
+#menu > input:nth-of-type(4):checked ~ div:nth-of-type(4)
 {display: block; text-align: left; max-width: 75rem; margin-left: auto; margin-right: auto; margin-top: 2em; margin-bottom: 5em; padding: 0 1.2em;}
 
 .aimg {
